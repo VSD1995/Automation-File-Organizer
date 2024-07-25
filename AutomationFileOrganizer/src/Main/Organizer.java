@@ -14,7 +14,7 @@ public class Organizer  {
 		
 		File[] files= directory.listFiles();
 		if(files==null) {
-			System.out.println("The directory is empty or cannot be read");
+			System.out.println ("The directory is empty or cannot be read");
 			return;
 		}
 		for(File file: files) {
